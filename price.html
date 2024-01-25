@@ -39,87 +39,57 @@
         <!-- Spinner End -->
 
 
-        <!-- Navbar start -->
-        <div class="container-fluid sticky-top px-0">
-            <div class="container-fluid topbar d-none d-lg-block">
-                <div class="container px-0">
-                    <div class="row align-items-center">
-                        <div class="col-lg-8">
-                            <div class="d-flex flex-wrap">
-                                <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find A Location</a>
-                                <a href="#" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>+01234567890</a>
-                                <a href="#" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>Example@gmail.com</a>
-                            </div>
+       
 
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="d-flex align-items-center justify-content-end">
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="me-3 btn-square border rounded-circle nav-fill"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn-square border rounded-circle nav-fill"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
+ <!-- Navbar start -->
+ <div class="container-fluid sticky-top px-0">
+          
+    <div class="container-fluid bg-light">
+        <div class="container px-0">
+            <nav class="navbar navbar-light navbar-expand-xl">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-primary display-4">BAC</h1>
+                </a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto border-top">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        
+                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <a href="price.html" class="nav-item nav-link">Price</a>
+                        <a href="appointment.html" class="nav-item nav-link">Appointment</a>
+
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                     </div>
+                    
                 </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+<!-- Modal Search Start -->
+<div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="container-fluid bg-light">
-                <div class="container px-0">
-                    <nav class="navbar navbar-light navbar-expand-xl">
-                        <a href="index.html" class="navbar-brand">
-                            <h1 class="text-primary display-4">Sparlex</h1>
-                        </a>
-                        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                            <span class="fa fa-bars text-primary"></span>
-                        </button>
-                        <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
-                            <div class="navbar-nav mx-auto border-top">
-                                <a href="index.html" class="nav-item nav-link">Home</a>
-                                <a href="about.html" class="nav-item nav-link">About</a>
-                                <a href="service.html" class="nav-item nav-link">Services</a>
-                                <a href="price.html" class="nav-item nav-link active">Price</a>
-                                <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                                    <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                        <a href="team.html" class="dropdown-item">Team</a>
-                                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                        <a href="gallery.html" class="dropdown-item">Gallery</a>
-                                        <a href="appointment.html" class="dropdown-item">Appointment</a>
-                                        <a href="404.html" class="dropdown-item">404 page</a>
-                                    </div>
-                                </div>
-                                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap pt-xl-0">
-                                <button class="btn-search btn btn-primary btn-primary-outline-0 rounded-circle btn-lg-square" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                <a href="index.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">Book Appointment</a>
-                            </div>
-                        </div>
-                    </nav>
+            <div class="modal-body d-flex align-items-center">
+                <div class="input-group w-75 mx-auto d-flex">
+                    <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
                 </div>
             </div>
         </div>
-        <!-- Navbar End -->
-
-
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Search End -->
+    </div>
+</div>
+<!-- Modal Search End -->
 
 
 
@@ -138,89 +108,181 @@
 
         
         <!-- Pricing Start -->
-        <div class="container-fluid pricing py-5" style="background: var(--bs-primary);">
-            <div class="container py-5">
-                <div class="owl-carousel pricing-carousel">
-                    <div class="pricing-item">
-                        <div class="rounded pricing-content">
-                            <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
-                                <h1 class="display-4 mb-0">
-                                    <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">$</small>49<small class="text-muted" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                </h1>
-                                <h5 class="text-primary text-uppercase m-0">Basic Plan</h5>
-                            </div>
-                            <div class="p-4">
-                                <p><i class="fa fa-check text-primary me-2"></i>Full Body Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Deep Tissue Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Hot Stone Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Tissue Body Polish</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Foot & Nail Care</p>
-                                <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">Order Now</a>
-                            </div>
+        <div class="col-xs-12 col-md-8 column-main">
+            <div class="service-price">
+                <h2>Bảng giá dịch vụ chung</h2>
+                <form id="searchService">
+                    <div class="service-price-filter">
+                        <div class="control active">
+                            <input type="text" id="SearchTerm" name="SearchTerm" class="form-control" style="background-image:none    " placeholder="Tra cứu giá dịch vụ">
+                        </div>
+                        <div class="actions">
+                            <button id="submitSearch" class="btn btn-primary">Tra cứu</button>
                         </div>
                     </div>
-                    <div class="pricing-item">
-                        <div class="pricing-content rounded">
-                            <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
-                                <h1 class="display-4 mb-0">
-                                    <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">$</small>99<small class="text-muted" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                </h1>
-                                <h5 class="text-primary text-uppercase m-0">Family Plan</h5>
-                            </div>
-                            <div class="p-4">
-                                <p><i class="fa fa-check text-primary me-2"></i>Full Body Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Deep Tissue Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Hot Stone Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Tissue Body Polish</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Foot & Nail Care</p>
-                                <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">Order Now</a>
-                            </div>
-                        </div>
+                </form>
+                <div class="service-price-content">
+                    <div class="table-responsive" id="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Tên dịch vụ</th>
+                                    <th>Giá dịch vụ (VNĐ)</th>
+                                    <th>Giá BHYT (VNĐ)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>- Biohorizon (Mỹ)</td>
+                                        <td>25.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>- Biotem Hàn Quốc</td>
+                                        <td>15.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>- Nobel Biocare (Thụy Điển), Strauman SLA</td>
+                                        <td>35.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>- Osstem Hàn Quốc</td>
+                                        <td>15.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>- Osstem Mỹ</td>
+                                        <td>18.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>- Strauman SL Active, Nobel Active</td>
+                                        <td>45.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>- Teka (Pháp)</td>
+                                        <td>26.000.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>-Mãn kinh</td>
+                                        <td>0 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>(Tại nhà) Cắt chỉ &lt; 5cm</td>
+                                        <td>250.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>(Tại nhà) Cắt chỉ vết thương &gt; 15cm</td>
+                                        <td>320.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>(Tại nhà) Cắt chỉ vết thương dài 5-15cm</td>
+                                        <td>280.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>(Tại nhà) Siêu âm khớp cổ chân phải</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>(Tại nhà) Siêu âm khớp cổ chân trái</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>(Tại nhà) Siêu âm khớp cổ tay phải</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>(Tại nhà) Siêu âm khớp cổ tay trái</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>(Tại nhà) Siêu âm khớp gối phải</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>(Tại nhà) Siêu âm khớp gối trái</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>(Tại nhà) Siêu âm khớp háng phải</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>(Tại nhà) Siêu âm khớp háng trái </td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>(Tại nhà) Siêu âm khớp khuỷu phải</td>
+                                        <td>550.000 </td>
+                                        <td>0 </td>
+
+                                    </tr>
+
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="pricing-item">
-                        <div class="pricing-content rounded">
-                            <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
-                                <h1 class="display-4 mb-0">
-                                    <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">$</small>149<small class="text-muted" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                </h1>
-                                <h5 class="text-primary text-uppercase m-0">VIP Plan</h5>
-                            </div>
-                            <div class="p-4">
-                                <p><i class="fa fa-check text-primary me-2"></i>Full Body Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Deep Tissue Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Hot Stone Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Tissue Body Polish</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Foot & Nail Care</p>
-                                <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">Order Now</a>
-                            </div>
-                        </div>
                     </div>
-                    <div class="pricing-item">
-                        <div class="pricing-content rounded">
-                            <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
-                                <h1 class="display-4 mb-0">
-                                    <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">$</small>199<small class="text-muted" style="font-size: 16px; line-height: 40px;">/Mo</small>
-                                </h1>
-                                <h5 class="text-primary text-uppercase m-0">Most Plan</h5>
-                            </div>
-                            <div class="p-4">
-                                <p><i class="fa fa-check text-primary me-2"></i>Full Body Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Deep Tissue Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Hot Stone Massage</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Tissue Body Polish</p>
-                                <p><i class="fa fa-check text-primary me-2"></i>Foot & Nail Care</p>
-                                <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">Order Now</a>
-                            </div>
-                        </div>
+
+
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- Pricing End -->
-
-
-
-        <!-- Footer Start -->
+                    <!-- Footer Start -->
         <div class="container-fluid footer py-5">
             <div class="container py-5">
                 <div class="row g-5">
@@ -298,6 +360,12 @@
                 </div>
             </div>
         </div>
+        <!-- Pricing End -->
+
+
+
+
+        
         <!-- Copyright End -->
 
 
